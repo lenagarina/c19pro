@@ -1,0 +1,66 @@
+.textblock-style {
+  background-color: $light-gray;
+}
+
+.cpro_cell {
+  margin: 16px 10px;
+  padding: 10px;
+  border: 1px solid $border-gray;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form-row-style {
+  margin-top: 10px;
+}
+
+.table tr {
+  td,
+  th {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  th {
+    font-weight: 500;
+  }
+}
+
+.percentCalculaterNumber {
+  font-size: 10px;
+  padding-left: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notice-title {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #app .cpro_card-s a,
+  #app .cpro_card-m a {
+    font-size: 13px;
+  }
+  #app {
+    .table tr td,
+    .table tr th {
+      font-size: 13px;
+    }
+
+    .table tr th {
+      padding: 4px;
+    }
+  }
+
+  .cpro_pagination_with_xs_offset {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cpro_table-container {
+    overflow: auto;
+  }
+}
