@@ -1,0 +1,9 @@
+#app {
+  .cpro_progress-bar {
+    font-weight: 600;
+    max-width: 80px;
+    .progress-bar {
+      background-color: $primary;
+    }
+  }
+}

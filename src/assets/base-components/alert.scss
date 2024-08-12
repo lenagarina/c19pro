@@ -1,0 +1,25 @@
+#app {
+  .cpro_alert {
+    margin: 10px;
+    border-radius: unset;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    .alert-close {
+      background: none;
+      border: 0px;
+      position: absolute;
+      right: 5px;
+      top: 8px;
+    }
+
+    h5 {
+      margin: 0;
+      line-height: 22px;
+      color: $dark-gray;
+      font-weight: 400;
+      font-size: 13px;
+    }
+  }
+}

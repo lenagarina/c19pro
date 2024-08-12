@@ -1,0 +1,77 @@
+.cpro_carousel {
+  .carousel-slide {
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .carousel__track {
+    margin-bottom: 0px;
+  }
+
+  .carousel-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 50%;
+    margin-bottom: 45px;
+  }
+
+  .carousel-content-background {
+    --p: 20%;
+    height: 100%;
+    width: 200%;
+    aspect-ratio: 3/2;
+    margin-left: -90%;
+    clip-path: polygon(var(--p) 0, 100% 0, calc(100% - var(--p)) 100%, 0 100%);
+    background: $light-red;
+  }
+
+  .carousel-content-texts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    color: $white;
+    padding-left: 10%;
+    width: 70%;
+    padding-top: 120px;
+  }
+
+  .carousel-content-texts h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .carousel-content-texts h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .carousel__prev {
+    position: absolute;
+    bottom: 30px;
+    top: initial;
+    left: 50px;
+    background-color: $primary;
+    border-radius: 100%;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel__prev svg {
+    fill: $white;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .cpro_carousel .carousel-content {
+    width: 80%;
+  }
+}

@@ -1,0 +1,78 @@
+#app {
+  .cpro_card-m {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-bottom: 20px;
+    border-radius: 0%;
+    .cpro_bg-primary {
+      background-color: $primary !important;
+      h2 {
+        text-align: left;
+        font-size: 23px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .cpro_card-s {
+    height: 390px;
+    border-radius: inherit;
+    margin-bottom: 20px;
+    border-radius: 0%;
+    .cpro_bg-primary {
+      background-color: $primary !important;
+      h2 {
+        text-align: left;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    .cpro_card-info-text {
+      span {
+        font-size: 13px;
+        text-align: left;
+      }
+    }
+  }
+
+  .cpro_card-s,
+  .cpro_card-m {
+    a {
+      color: $black;
+      font-size: 14px;
+      text-decoration: underline;
+      font-weight: 400;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #app {
+    .cpro_card-s {
+      height: 460px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  #app {
+    .cpro_card-s {
+      height: auto;
+    }
+  }
+}

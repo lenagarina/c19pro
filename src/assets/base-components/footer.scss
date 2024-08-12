@@ -1,0 +1,30 @@
+.cpro_footer-block {
+  background-color: $primary;
+
+  margin-top: 20px;
+  .cpro_footer-text {
+    color: $white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    p {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.cpro_footer-sub-text {
+  color: $primary;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  p {
+    margin-bottom: 0px;
+  }
+}
